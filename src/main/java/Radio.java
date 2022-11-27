@@ -1,6 +1,6 @@
 public class Radio {
-    public int station;
-    public int volume;
+    private int station;
+    private int volume;
 
     public int getStation() {
         return station;
@@ -18,10 +18,6 @@ public class Radio {
             return;
         }
         station = newStation;
-    }
-
-    public void setMaxStation() {
-        station = 9;
     }
 
     public void setNextStation(int newStation) {

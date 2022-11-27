@@ -30,14 +30,7 @@ public class RadioTest {
 
     }
 
-    @Test
-    public void shouldSetMaxStation() {
-        Radio radio = new Radio();
-        radio.setMaxStation();
-        int expected = 9;
-        int actual = radio.getStation();
-        Assertions.assertEquals(expected, actual);
-    }
+
     @Test
     public void shouldSetNextStation(){
         Radio radio = new Radio();
