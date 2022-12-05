@@ -26,7 +26,6 @@ public class Radio {
         } else {
             station = 9;
         }
-
     }
 
     public void setPrevStation() {
@@ -48,18 +47,19 @@ public class Radio {
     }
 
 
-        public void increaseVolume () {
-            if (volume < 10) {
-                volume++;
-            }else{
-                volume = 10;
-            }
-        }
-        public void decreaseVolume () {
-            if (volume > 0) {
-                volume--;
-            }else{
-                volume = 0;
-            }
+    public void increaseVolume() {
+        if (volume < 10) {
+            volume++;
+        } else {
+            volume = 10;
         }
     }
+
+    public void decreaseVolume() {
+        if (volume > 0) {
+            volume--;
+        } else {
+            volume = 0;
+        }
+    }
+}
